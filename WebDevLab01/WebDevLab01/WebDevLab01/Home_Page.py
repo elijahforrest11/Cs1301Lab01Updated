@@ -22,8 +22,7 @@ Welcome to our Streamlit Web Development Lab01 app! You can navigate between the
 
 1. **Homepage**: Introduction to the lab with course details and navigation guide
 2. **Portfolio**: This page highlights my background, education, experience, projects, skills, and activities
-3.
-4.
+3. **PhaseII**: This page quizzes you on your ideal country based on different factors!
 
 """)
 
