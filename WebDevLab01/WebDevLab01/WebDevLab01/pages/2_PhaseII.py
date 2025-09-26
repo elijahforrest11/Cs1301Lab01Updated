@@ -1,12 +1,13 @@
 import streamlit as st
-
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent.parent
+IMG = ROOT / "Images"
 
 st.write("Find your ideal country!")
 
-st.image("Images/japan.png", caption="Japan", width=50)
-st.image("Images/italy.png", caption="Italy", width=50)
-st.image("Images/canada.png", caption="Canada", width=50)
-
+st.image(str(IMG / "japan.png"), caption="Japan", width=50)
+st.image(str(IMG / "italy.png"), caption="Italy", width=50)
+st.image(str(IMG / "canada.png"), caption="Canada", width=50)
 
 climate = st.radio("Preferred climate:", ["Cold", "Mild", "Warm"])  #NEW
 food = st.selectbox("Food you like most:", ["Sushi", "Pasta", "Burgers"])  #NEW
@@ -40,11 +41,9 @@ if st.button("Show my country"):
     st.metric("Match score", f"{points}/5")  #NEW
     st.success(f"Your ideal country is **{result}**!")
     if result == "Japan":
-        st.image("Images/japan.png", width=160)
+        st.image(str(IMG / "japan.png"), width=160)
     elif result == "Italy":
-        st.image("Images/italy.png", width=160)
+        st.image(str(IMG / "italy.png"), width=160)
     else:
-        st.image("Images/canada.png", width=160)
+        st.image(str(IMG / "canada.png"), width=160)
     st.balloons()  #NEW
-
-
