@@ -61,7 +61,7 @@ spoken_data = {
     "English": "Fluent",
 }
 leadership_data = {
-    "Green team club senior board": (["- Helped make decisions for the club every week"],str(IMG / "green_club.jpg")),
+    "Green team club senior board": (["- Helped make decisions for the club every week"],
 
 }
 activity_data={
