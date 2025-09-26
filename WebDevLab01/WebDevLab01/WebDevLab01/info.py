@@ -10,7 +10,7 @@ about_me = "I am Elijah Forrest, a 2nd year IE major from Collingswood, NJ"
 #CHANGE BELOW (OPTIONAL)
 linkedin_image_url = "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
 github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
-email_image_url = "https://logowik.com/content/uploads/images/513_email.jpg"
+email_image_url = "https://logowik.com/content/uploads/Images/513_email.jpg"
 
 #CHANGE BELOW
 my_linkedin_url = "https://www.linkedin.com/in/elijah-forrest-680659323/details/featured/"
@@ -33,10 +33,10 @@ course_data = {
     }
 experience_data = {
     "Gymnastics and Cheerleading Academy": (["- Led activities for 20-30 campers and had fun during it",
-                                                                          "- resolving staffing or schedule gaps to maintain safety, engagement, and efficiency.", "- Made my manager proud"], "Images\camp.jpg"),
+                                                                          "- resolving staffing or schedule gaps to maintain safety, engagement, and efficiency.", "- Made my manager proud"], "Images/camp.jpg"),
     "Host at Westmont Diner":(["- Was the friendly guy who kind of hated his job...",
-                                                           "- Allowed hosts on weekends to go from two working at a time to one"],"Images\host.jpg"),
-    "Concert Venue Parking Director":(["- Only worked here to get free concert tickets"],"pavilion.jpg")
+                                                           "- Allowed hosts on weekends to go from two working at a time to one"],"Images/host.jpg"),
+    "Concert Venue Parking Director":(["- Only worked here to get free concert tickets"],"Images/pavilion.jpg")
 
 }
 
@@ -63,7 +63,7 @@ spoken_data = {
     "English": "Fluent",
 }
 leadership_data = {
-    "Green team club senior board": (["- Helped make decisions for the club every week"],"green club.jpg"),
+    "Green team club senior board": (["- Helped make decisions for the club every week"],"Images/green_club.jpg"),
 
 }
 activity_data={
