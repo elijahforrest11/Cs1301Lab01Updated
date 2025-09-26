@@ -1,8 +1,9 @@
 
 #This File will contain the information to be displayed in your portfolio
 
+
 #CHANGE BELOW
-profile_picture = "C:\Elijah\Cs1301\WebDevLab01\WebDevLab01\WebDevLab01\Images\head shot gt polo.png"
+profile_picture = "Images/japan.png"
 about_me = "I am Elijah Forrest, a 2nd year IE major from Collingswood, NJ"
 
 
@@ -32,10 +33,10 @@ course_data = {
     }
 experience_data = {
     "Gymnastics and Cheerleading Academy": (["- Led activities for 20-30 campers and had fun during it",
-                                                                          "- resolving staffing or schedule gaps to maintain safety, engagement, and efficiency.", "- Made my manager proud"], "C:\Elijah\Cs1301\WebDevLab01\WebDevLab01\WebDevLab01\Images\camp.jpg"),
+                                                                          "- resolving staffing or schedule gaps to maintain safety, engagement, and efficiency.", "- Made my manager proud"], "Images\camp.jpg"),
     "Host at Westmont Diner":(["- Was the friendly guy who kind of hated his job...",
-                                                           "- Allowed hosts on weekends to go from two working at a time to one"],"C:\Elijah\Cs1301\WebDevLab01\WebDevLab01\WebDevLab01\Images\host.jpg"),
-    "Concert Venue Parking Director":(["- Only worked here to get free concert tickets"],"C:\Elijah\Cs1301\WebDevLab01\WebDevLab01\WebDevLab01\Images\pavilion.jpg")
+                                                           "- Allowed hosts on weekends to go from two working at a time to one"],"Images\host.jpg"),
+    "Concert Venue Parking Director":(["- Only worked here to get free concert tickets"],"pavilion.jpg")
 
 }
 
@@ -62,7 +63,7 @@ spoken_data = {
     "English": "Fluent",
 }
 leadership_data = {
-    "Green team club senior board": (["- Helped make decisions for the club every week"],"C:\Elijah\Cs1301\WebDevLab01\WebDevLab01\WebDevLab01\Images\green club.jpg"),
+    "Green team club senior board": (["- Helped make decisions for the club every week"],"green club.jpg"),
 
 }
 activity_data={
