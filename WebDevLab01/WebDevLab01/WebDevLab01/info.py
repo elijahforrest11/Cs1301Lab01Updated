@@ -1,5 +1,8 @@
 #CHANGE BELOW
-profile_picture = str(IMG / "japan.png")
+import streamlit as st
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent.parent
+IMG = ROOT / "Images"
 about_me = "I am Elijah Forrest, a 2nd year IE major from Collingswood, NJ"
 
 #CHANGE BELOW (OPTIONAL)
