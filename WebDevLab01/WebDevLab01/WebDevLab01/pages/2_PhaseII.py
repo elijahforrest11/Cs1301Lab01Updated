@@ -3,9 +3,9 @@ import streamlit as st
 
 st.write("Find your ideal country!")
 
-st.image("japan.png", caption="Japan", width=50)
-st.image("italy.png", caption="Italy", width=50)
-st.image("canada.png", caption="Canada", width=50)
+st.image("Images/japan.png", caption="Japan", width=50)
+st.image("Images/italy.png", caption="Italy", width=50)
+st.image("Images/canada.png", caption="Canada", width=50)
 
 
 climate = st.radio("Preferred climate:", ["Cold", "Mild", "Warm"])  #NEW
@@ -40,10 +40,11 @@ if st.button("Show my country"):
     st.metric("Match score", f"{points}/5")  #NEW
     st.success(f"Your ideal country is **{result}**!")
     if result == "Japan":
-        st.image("japan.png", width=160)
+        st.image("Images/japan.png", width=160)
     elif result == "Italy":
-        st.image("italy.png", width=160)
+        st.image("Images/italy.png", width=160)
     else:
-        st.image("canada.png", width=160)
+        st.image("Images/canada.png", width=160)
     st.balloons()  #NEW
+
 
