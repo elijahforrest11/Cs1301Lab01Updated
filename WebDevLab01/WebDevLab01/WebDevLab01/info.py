@@ -1,8 +1,9 @@
 #CHANGE BELOW
 import streamlit as st
 from pathlib import Path
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 IMG = ROOT / "Images"
+profile_picture = str(IMG / "japan.png")
 about_me = "I am Elijah Forrest, a 2nd year IE major from Collingswood, NJ"
 
 #CHANGE BELOW (OPTIONAL)
